@@ -1,0 +1,51 @@
+.nav__list li:nth-child(4) .nav__item {
+  color: black;
+}
+
+.block1-title {
+  font-size: 56px;
+}
+
+.block1-description {
+  font-size: 20px;
+  font-weight: 600;
+}
+.services_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-link {
+  display: flex;
+}
+.services_item {
+  display: flex;
+  flex-direction: row;
+}
+.services_item--even {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.service-image {
+  width: 50%;
+  height: 550px;
+}
+.service-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 550px;
+  border: 1px solid var(--primary-color);
+  margin: auto 0;
+}
+
+.service-title {
+  font-size: 38px;
+}
+
+.service-description {
+  display: block;
+  margin: 0 20%;
+}

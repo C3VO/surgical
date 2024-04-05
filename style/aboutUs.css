@@ -1,0 +1,54 @@
+.nav__list li:nth-child(2) .nav__item {
+  color: black;
+}
+
+.block1-container {
+  max-width: 55%;
+  margin: 0 auto;
+}
+
+.block1-title {
+  padding: 20px 0;
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.block1-description {
+  display: block;
+  padding: 20px 0;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.block1-text {
+  display: block;
+  padding: 20px 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.block2_video {
+  display: flex;
+  align-items: center;
+}
+
+.block2_video {
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.block3-container {
+  margin: 30px 21.5% 0 21.5%;
+}
+
+.block3-title {
+  padding: 20px 0;
+  font-weight: 600;
+  font-size: 38px;
+  margin: 0 auto;
+}
+
+.block3-text {
+  font-weight: 700;
+}

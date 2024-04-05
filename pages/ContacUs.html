@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Surgical Department</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/contactUs.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <span class="logo">Surgical Department</span>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li>
+            <a href="../Index.html" class="nav__item">Home</a>
+          </li>
+          <li>
+            <a href="./About.html" class="nav__item">About us</a>
+          </li>
+          <li>
+            <a href="./Team.html" class="nav__item">Team</a>
+          </li>
+          <li class="nav__item services-dropdown">
+            <a href="./Services.html" class="nav__item">Services</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="./services/Endosocopy.html">Endoscopy</a>
+              </li>
+              <li>
+                <a href="./services/Ultrasound.html">Ultrasound examination</a>
+              </li>
+              <li>
+                <a href="./services/Laparoscopy.html">Laparoscopy</a>
+              </li>
+              <li>
+                <a href="./services/Oncological.html">Oncological surgery</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="./News.html" class="nav__item">News</a>
+          </li>
+        </ul>
+        <a href="./ContacUs.html" class="btn--contact">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <!-- block 1 -->
+        <section class="block1-container">
+          <img src="../img/contacts_bg.webp" alt="" class="contacts_image" />
+          <span class="contacts-title">Contacts</span>
+        </section>
+      </article>
+      <section class="contacts">
+        <section class="contacts_item">
+          <h3>Address</h3>
+          <span>123 Main Street</span>
+          <span>Dublin, AT 56789</span>
+          <span>Ireland</span>
+        </section>
+        <section class="contacts_item">
+          <h3>Contact</h3>
+          <span><a href="tel:1234567890">123-456-7890</a></span>
+
+          <span
+            ><a href="mailto:surgical-dep@mysite.com"
+              >surgical-dep@mysite.com</a
+            ></span
+          >
+        </section>
+        <section class="contacts_item">
+          <h3>Opening Hours</h3>
+          <span>Mon - Fri 8:00 am – 8:00 pm</span>
+          <span>Saturday 9:00 am – 7:00 pm</span>
+          <span>Sunday 9:00 am – 9:00 pm</span>
+        </section>
+      </section>
+      <!-- form -->
+      <section class="form-container">
+        <section class="form-left_block">
+          <form action="submit">
+            <div class="names_section">
+              <div class="labels">
+                <label for="">First Name</label
+                ><input type="text" class="form-input" />
+              </div>
+              <div class="labels">
+                <label for="">Last Name</label
+                ><input type="text" class="form-input" />
+              </div>
+            </div>
+            <div class="other-inputs">
+              <div class="labels">
+                <label for="">Email</label>
+                <input type="email" class="form-input" />
+              </div>
+              <div class="labels">
+                <label for="">Phone*</label>
+                <input type="number" class="form-input" required />
+              </div>
+              <div class="labels">
+                <label for="">Message</label>
+                <input type="text" class="form-input" />
+              </div>
+            </div>
+            <button type="submit" class="form--btn">Request assistance</button>
+          </form>
+        </section>
+        <section class="form-right_block">
+          <img src="../img/map.png" alt="" />
+        </section>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="#header"
+        ><span class="footer__logo">Surgical Department</span></a
+      >
+      <nav class="footer__nav">
+        <ul class="footer__nav__list">
+          <li>
+            <a
+              href="mailto:surgical-dep@mysite.com"
+              class="footer__nav__list__item"
+              >surgical-dep@mysite.com</a
+            >
+          </li>
+          <li><span>Dublin, Ireland</span></li>
+          <li>
+            <a href="tel:1234567890" class="footer__nav__list__item"
+              >123-456-7890</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

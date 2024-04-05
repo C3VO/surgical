@@ -1,0 +1,100 @@
+.contacts-title {
+  position: absolute;
+  font-size: 56px;
+  font-weight: 600;
+  background-color: white;
+  top: 270px;
+  left: 830px;
+  padding: 15px 25px;
+}
+.contacts_image {
+  position: relative;
+  margin: 2% 25%;
+}
+.contacts {
+  margin: 0 22%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacts_item {
+  display: flex;
+  flex-direction: column;
+}
+.contacts_item span {
+  text-align: start;
+  margin-top: 5px;
+}
+.contacts h3 {
+  font-size: 26px;
+}
+
+.form-container {
+  margin: 10% 24% 0 24%;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.names_section {
+  display: flex;
+  justify-content: space-around;
+}
+.labels {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.labels label {
+  text-align: start;
+}
+.first_name {
+  display: flex;
+  flex-direction: column;
+}
+.form-left_block {
+  width: 50%;
+}
+.form-right_block {
+}
+
+.form-input {
+  border: none;
+  background-color: var(--secondary-color);
+  border-bottom: 1px solid var(--primary-color);
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.other-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: start;
+  margin-left: 23px;
+  margin-top: 20px;
+}
+
+input {
+  text-align: start;
+}
+input:focus-visible {
+  outline: none;
+}
+
+.other-inputs .labels input {
+  width: 450px;
+}
+
+.form--btn {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 20px 25px;
+  font-weight: 600;
+  margin-right: 270px;
+  cursor: pointer;
+}
